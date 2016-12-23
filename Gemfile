@@ -97,3 +97,6 @@ group :site do
   gem "jekyll-sitemap"
   gem "jemoji", "0.5.1"
 end
+
+source 'https://rubygems.org'
+gem 'github-pages', group: :jekyll_plugins
